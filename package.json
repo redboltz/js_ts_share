@@ -1,0 +1,12 @@
+{
+  "name": "myarray",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "ts-run": "tsc -p test/typescript/tsconfig.json && node test/typescript/test.js",
+    "js-run": "node test/test.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
